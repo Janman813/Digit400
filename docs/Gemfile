@@ -4,4 +4,10 @@ source "https://rubygems.org"
 
 # gem "rails"
 
+#gem "tzinfo-data"
+
+#gem "wdm"
+
 gem "jekyll", "~> 4.2"
+
+gem "webrick", "~> 1.7"
