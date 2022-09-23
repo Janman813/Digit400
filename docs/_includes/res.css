@@ -12,6 +12,7 @@ div.content{
 
 h1{
     text-align:left;
+    font-size:126px;
 }
 
 p{
@@ -30,11 +31,6 @@ p{
      background:Thistle;
  }
  
- div.nav{
-     overflow:hidden;
-     position:absolute;
-     right:30px;
-}
 
 .nav a{
      float:right;
