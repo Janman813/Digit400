@@ -1,0 +1,47 @@
+body {
+    background-color:Tan;
+    color:MidnightBlue;
+    font-family:arial, helvetica, sans-serif;
+}
+
+div.content{
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+h1{
+    text-align:left;
+}
+
+p{
+    text-align:left;
+    height:125%;
+    width:125%;
+}
+ 
+ img{
+     border-radius: 15px;
+     flex-direction: row;
+     margin-bottom: 20px; 
+     margin: 10px;
+     height: 500px;
+     width: 300px;
+     background:Thistle;
+ }
+ 
+ div.nav{
+     overflow:hidden;
+     position:absolute;
+     right:30px;
+}
+
+.nav a{
+     float:right;
+     margin-left:7vw;
+     font-weight:600;
+     font-size:1.3em;
+     color:white;
+     background-color:gray;
+     padding: 14px 16px;
+}
