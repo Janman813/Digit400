@@ -24,8 +24,11 @@ p{
      background:Thistle;
  }
  
- nav{
+ .nav{
+     float:left;
      margin-left:7vw;
      font-weight:600;
      font-size:1.3em;
+     color:white;
+     background-color:gray;
  }
