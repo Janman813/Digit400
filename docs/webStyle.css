@@ -23,3 +23,9 @@ p{
      width: 300px;
      background:Thistle;
  }
+ 
+ nav{
+     margin-left:7vw;
+     font-weight:600;
+     font-size:1.3em;
+ }
