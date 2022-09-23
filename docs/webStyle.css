@@ -16,8 +16,8 @@ h1{
 
 p{
     text-align:left;
-    height:75%;
-    width:75%;
+    height:95%;
+    width:95%;
 }
  
  img{
@@ -37,7 +37,7 @@ p{
 }
 
 .nav a{
-     float:left;
+     float:middle;
      margin-left:7vw;
      font-weight:600;
      font-size:1.3em;
