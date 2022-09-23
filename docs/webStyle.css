@@ -3,6 +3,12 @@ body {
     color:MidnightBlue;
     font-family:arial, helvetica, sans-serif;
 }
+div.content{
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
 
 h1{
     text-align:left;
