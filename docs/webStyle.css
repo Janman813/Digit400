@@ -3,11 +3,11 @@ body {
     color:MidnightBlue;
     font-family:arial, helvetica, sans-serif;
 }
+
 div.content{
     margin-top: 40px;
     margin-left: 60px;
     margin-right: 60px;
-    
 }
 
 h1{
@@ -31,6 +31,12 @@ p{
  }
  
  div.nav{
+     overflow:hidden;
+     position:absolute;
+     right:30px;
+}
+
+.nav a{
      float:left;
      margin-left:7vw;
      font-weight:600;
@@ -38,4 +44,4 @@ p{
      color:white;
      background-color:gray;
      padding: 14px 16px;
- }
+}
