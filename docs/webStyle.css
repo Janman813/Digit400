@@ -31,7 +31,7 @@ p{
  }
  
  div.nav{
-     overflow:hidden;
+     overflow:auto;
      position:absolute;
      right:30px;
 }
@@ -40,7 +40,7 @@ p{
      float:right;
      margin-left:7vw;
      font-weight:600;
-     font-size:1.3em;
+     font-size: 20px;
      color:white;
      background-color:gray;
      padding: 14px 16px;
