@@ -39,10 +39,6 @@ img{
   background-color: grey;
 }
 
-id.skills{
-    text-algin: left;
-}
- 
   div.nav{
      overflow:auto;
      position:absolute;
