@@ -1,9 +1,17 @@
 body {
-    background-color:Tan;
-    color:MidnightBlue;
-    font-family:arial, helvetica, sans-serif;
+    background-color: grey;
+    color: MidnightBlue;
+    font-family: arial, helvetica, sans-serif;
 }
 
+.href {
+    color: fuchsia;
+}
+
+ a{
+     color: DarkMagenta;
+ }
+ 
 div.content{
     margin-top: 40px;
     margin-left: 60px;
@@ -19,29 +27,217 @@ p{
     height:95%;
     width:95%;
 }
- 
- img{
-     border-radius: 15px;
-     flex-direction: row;
-     margin-bottom: 20px; 
-     margin: 10px;
-     height: 250px;
-     width: 150px;
-     background:Thistle;
- }
- 
- div.nav{
-     overflow:auto;
-     position:absolute;
-     right:30px;
+
+li {
+  display: inline;
 }
 
-.nav a{
+ intro{
      float:right;
-     margin-left:7vw;
-     font-weight:600;
-     font-size: 20px;
-     color:white;
-     background-color:gray;
-     padding: 14px 16px;
+     position: absolute;
+     height:150px; 
+ }
+ 
+ figure {
+     padding-top:50px;
+ }
+ 
+ img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+ 
+ figcaption{
+  float:right;
+  padding-top:100px;
+  padding-right:240px;
+ }
+ 
+ div.span {
+  display: grid;
+  width: 300px;
+  height: 300px;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: grey;
+}
+
+.flex-body {
+    text-align: left;
+    padding-left:20px;
+    display: block;
+    position:static;
+}
+
+.flex-container {
+  margin: 0;
+    padding: 0;
+    width: 10%;
+    height: 100%; 
+    display: inline-block;
+    list-style-type: none;
+    position: absolute;
+    position: fixed;
+    padding-bottom: 100%;
+    border-right-style: solid;
+    border-width: 3px;
+    background-color: white;
+}
+
+.flex-container > div {
+  background-color: rgba(255,255,255,0.8);
+  width: auto;
+  margin: auto;
+  text-align: left;
+  line-height: 75px;
+  font-size: 18px;
+}
+ 
+
+ 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+ul.contactInfo {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+div.education {
+    width: 60%;
+    padding-bottom: 50px;
+    text-align: left;
+    background: lightgray;
+    position: relative;
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+ 
+div.sum {
+    width: 60%;
+    padding-bottom: 50px;
+    text-align: left;
+    background: lightgray;
+    position: relative;
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+
+div.skills {
+    width: 60%;
+    padding-bottom: 50px;
+    text-align: left;
+    background: lightgray;
+    position: relative;
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+
+div.history {
+    width: 60%;
+    padding-bottom: 50px;
+    text-align: left;
+    background: lightgray;
+    position: relative;
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+
+div.photo{
+    width: 60%;
+    padding-bottom: 50px;
+    text-align: left;
+    background: lightgray;
+    position: relative;
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+
+div.illustrator{
+    width: 60%;
+    padding-bottom: 50px;
+    text-align: left;
+    background: lightgray;
+    position: relative;
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+
+div.premiere{
+    width: 60%;
+    padding-bottom: 50px;
+    text-align: left;
+    background: lightgray;
+    position: relative;
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-bottom: 50px;
+}
+
+div.after{
+    width: 60%;
+    padding-bottom: 50px;
+    text-align: left;
+    background: lightgray;
+    position: relative;
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 15%;
+    margin-bottom: 50px;
+}
+
+div.projects{
+    width: 60%;
+    padding-bottom: 50px;
+    text-align: left;
+    background: lightgray;
+    position: relative;
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-bottom: 50px;
 }
