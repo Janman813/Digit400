@@ -23,7 +23,7 @@ h1{
 }
 
 p{
-    text-align:left;
+    text-align: left;
     height:95%;
     width:95%;
 }
@@ -39,14 +39,15 @@ li {
  }
  
  figure {
-     padding-top:50px;
+     padding-top: 50px;
  }
  
  img {
   border: 1px solid #ddd;
   border-radius: 4px;
+  position: unset;
   padding: 5px;
-  width: 150px;
+  width: 180px;
 }
 
 img:hover {
@@ -252,5 +253,18 @@ div.projects{
     border-width: 3px;
     margin-left: 15%;
     margin-right: 5%;
+    margin-bottom: 50px;
+}
+
+div.me{
+    width: 60%;
+    padding-bottom: 50px;
+    text-align: left;
+    background: lightgray;
+    position: fixed;
+    border-style: solid;
+    border-width: 3px;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: 50px;
 }
